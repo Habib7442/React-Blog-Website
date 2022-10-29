@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Peralta&display=swap");
+:root {
+  --primary: hsla(273, 5%, 58%, 0.5);
+  --secondary: hsla(285, 47%, 15%, 0.45);
+}
+
+.htmlHome {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, var(--primary), var(--secondary)),
+    url(../../assets/htmlhome.jpg), no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-family: "Peralta", cursive;
+}
+
+.htmlHome_h1{
+    font-size: 50px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    color: lightblue;
+}
+.htmlHome_h2{
+    font-size: 45px;
+    letter-spacing: 5px;
+    color: lightcyan;
+}

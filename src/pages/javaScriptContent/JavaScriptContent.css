@@ -1,0 +1,12 @@
+.jsContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.js_structure{
+    width: 350px;
+    height: 320px;
+}

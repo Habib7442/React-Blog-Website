@@ -1,0 +1,15 @@
+:root {
+  --primary: hsla(168, 53%, 52%, 0.5);
+  --secondary: hsla(243, 58%, 21%, 0.45);
+}
+
+.headerImg {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+
+
+
+
